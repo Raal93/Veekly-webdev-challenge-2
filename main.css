@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700,900');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+    font-family: "Raleway";
+}
+
+/* first screen */
+
+.navbar-brand {
+    font-size: 3.125rem;
+    color: rgb(38, 38, 38);
+    font-family: "Pacifico";
+}
+
+.nav-link {
+    line-height: 1;
+    font-weight: 700;
+}
+
+.nav-item {
+    border-top: 3px solid transparent;
+}
+
+.active {
+    border-top: 3px solid #ff5f33;
+    padding-top: 0.4rem;
+}
+
+.first-screen {
+    background: url("img/background-1.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.first-screen .card {
+    background-color: transparent;
+    margin: 30% 0 50% 0;
+}
+
+.first-screen .card-title {
+    font-size: 1.75rem;
+    color: rgb(38, 38, 38);
+    font-weight: 900;
+}
+
+.first-screen .card-body p {
+    font-size: 1.0625rem;
+    font-weight: 300;
+    color: rgb(38, 38, 38);
+}
+
+.btn-custom-styles {
+    -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 0;
+    color: white;
+    font-weight: 300;
+    font-size: 1.15rem;
+    height: 55px;
+}
+
+.btn-custom-styles:hover {
+    -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.first-screen .btn {
+    background-color: #ff5f33;
+}
+
+/* second screen */
+
+.second-screen {
+    background-color: #00c3c3;
+    color: rgb(255, 255, 255);
+}
+
+.second-screen .img-fluid {
+    margin: 10% 0 10% 0;
+}
+
+.second-screen .text-section {
+    margin-bottom: 20%;
+}
+
+.second-screen h2 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.0625rem;
+    font-weight: 300;
+    color: rgb(38, 38, 38);
+}
+
+/* THIRD SCREEN */
+
+.third-screen {
+    background-color: #70beff;
+}
+
+.third-screen .img-fluid {
+    margin: 12% 0 20% 0;
+    position: relative;
+}
+
+.third-screen h2 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.third-screen .buttons {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.third-screen .btn {
+    border-radius: 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    height: 80px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-top: 1.25rem;
+    width: 80%;
+}
+
+.third-screen .btn:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.third-screen .col-9 {
+    /* overflow text??? */
+}
+
+/* FOURTH SCREEN */
+
+.fourth-screen {
+    background-color: #ffe92f;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.fourth-screen .padding {
+    padding: 1rem;
+}
+
+.fourth-screen .btn {
+    background-color: #5585a1;
+    margin-top: 2rem;
+}
+
+/* FIFTH SCREEN */
+
+.fifth-screen img {
+    position: relative;
+    margin-top: 8rem;
+    margin-bottom: 22rem;
+}
+
+.absolute {
+    position: absolute;
+    margin-left: 8.5%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.fifth-screen h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.fifth-screen input {
+    border: 1px solid #252525;
+    border-radius: 0;
+    height: 55px;
+    margin-left: 15px;
+}
+
+.fifth-screen button {
+    background-color: #95b92b;
+    margin-left: 15px;
+}
+
+.fifth-screen button:hover {
+    background-color: #95b92b;
+}
+
+/* SIXTH SCREEN */
+
+.sixth-screen {
+    background-color: #b07bf7;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.sixth-screen p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sixth-screen .padding {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.sixth-screen img {
+    position: relative;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.sixth-screen img:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.blogpost-date {
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    width: 35%;
+    height: auto;
+    line-height: 25px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #252525;
+    color: white;
+    opacity: 0.5;
+}
+
+.blogpost-date .day {
+    font-size: 2rem;
+}
+
+.blogpost-date .month {
+    font-size: 1.3125rem;
+}
+
+h4 {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.sign {
+    font-size: 0.8rem;
+}
+
+.sixth-screen button {
+    background-color: #f72a3b;
+    margin-top: 2rem;
+}
+
+/* SEVENTH SCREEN */
+.seventh-screen {
+    background: url('img/seventh-screen-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+h5 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-weight: 1.0625rem;
+    margin-bottom: 0;
+}
+.form-styles {
+    background-color: #00e3e3;
+    color: white;
+    opacity: 0.5;
+    border: 0;
+    border-radius: 0;
+    resize: none;
+    font-weight: 700;
+}
+.form-styles::placeholder {
+    color: white;
+    font-weight: 300;
+}
+.form-styles:focus {
+    background-color: #00c3c3;
+    border-left: 6px solid #355b81;
+    color: white;
+    opacity: 0.7;
+}
+    /* FOOTER */
+footer {
+    background-color: #262626;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+footer p {
+    color: #b9b9b9;
+}
+footer .logo {
+    font-family: "Pacifico";
+    font-size: 1.5rem;
+}
+footer span {
+    color: #f02b55;
+    font-weight: 700;
+}
+
+/* Small (sm) devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    /* first screen */
+    .first-screen .card-title {
+        font-size: 3.75rem;
+    }
+    /* second screen */
+    .second-screen .text-section {
+        margin: 30% 0 30% 0;
+    }
+    .second-screen h2 {
+        font-size: 4rem;
+    }
+    .second-screen .img-fluid {
+        margin-top: 60%;
+    }
+    /* THIRD SCREEN */
+    .third-screen .img-fluid {
+        margin-top: 50%;
+    }
+    .third-screen h2 {
+        top: 30%;
+    }
+    /* FIFTH SCREEN */
+    .fifth-screen img {
+        margin-top: 5rem;
+        margin-bottom: 8rem;
+    }
+    /* SIXTH SCREEN */
+    .blogpost-date {
+        top: 13%;
+        left: 12%;
+        width: 15%;
+    }
+    .blogpost-describe {
+        text-align: left;
+        position: relative;
+        bottom: 33%;
+        margin-left: 5%;
+        margin-right: 5%;
+        color: white;
+        height: 0;
+    }
+    .sixth-screen h4 {
+        margin-top: 0;
+        font-weight: 700;
+    }
+}
+
+/*Medium (md) devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+
+    /* second screen */
+    .second-screen .img-fluid {
+        margin-top: 30%;
+    }
+
+    /* THIRD SCREEN */
+    .third-screen .img-fluid {
+        margin-top: 40%;
+    }
+    .third-screen h2 {
+        top: 25%;
+        font-size: 5.625rem;
+    }
+
+    /* FOURTH SCREEN */
+    h1 {
+        font-size: 5.625rem;
+    }
+    /* FIFTH SCREEN */
+    .fifth-screen img {
+        margin-top: 3rem;
+        margin-bottom: 6rem;
+    }
+    /* SIXTH SCREEN */
+    .blogpost-date {
+        top: 10%;
+        width: 25%;
+    }
+    .blogpost-describe {
+        position: static;
+        margin-top: 1rem;
+        color: #ddd;
+        height: auto;
+    }
+}
+
+/* Large (lg) devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    /* second screen */
+    .second-screen .img-fluid {
+        margin: 10% 0 10% 0;
+    }
+    .second-screen .text-section {
+        margin: 25% 0 30% 0;
+    }
+    .second-screen h2 {
+        font-size: 5.625rem;
+    }
+    /* THIRD SCREEN */
+    .third-screen .img-fluid {
+        margin-top: 20%;
+    }
+    .third-screen h2 {
+        top: 40%;
+        left: -15%;
+        font-size: 5.625rem;
+    }
+    .third-screen .btn {
+        width: 66.67%;
+        height: 100px;
+        line-height: 80px;
+    }
+    /* SIXTH SCREEN */
+    .blogpost-date {
+        top: 13%;
+        left: 10%;
+        width: 17%;
+    }
+    .blogpost-describe {
+        position: relative;
+        margin-top: 0;
+        color: #fff;
+        bottom: 38%;
+        height: 0;
+    }
+}
+
+/* Extra (xl) large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    /* THIRD SCREEN */
+    .third-screen h2 {
+        left: -5%;
+    }
+    /* SIXTH SCREEN */
+    .blogpost-describe {
+        bottom: 30%;
+    }
