@@ -1,11 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,700,900');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: "Raleway";
 }
 
 /* first screen */
+header nav{
+    transition-duration: 0.7s;
+    transition-timing-function: easy;
+    background-color: #fff;
+    opacity: 0.95;
+}
+
+header.sticky {
+    opacity: 0.9;
+    background-color: #fff;
+}
+
+header.sticky nav {
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 1;
+}
 
 .navbar-brand {
     font-size: 3.125rem;
@@ -25,6 +46,8 @@ body {
 .active {
     border-top: 3px solid #ff5f33;
     padding-top: 0.4rem;
+    transition-duration: 0.4s;
+    
 }
 
 .first-screen {
@@ -57,6 +80,7 @@ body {
     font-weight: 300;
     font-size: 1.15rem;
     height: 55px;
+    
 }
 
 .btn-custom-styles:hover {
@@ -66,6 +90,7 @@ body {
 
 .first-screen .btn {
     background-color: #ff5f33;
+	line-height: 37px;
 }
 
 /* second screen */
@@ -94,7 +119,7 @@ p {
     color: rgb(38, 38, 38);
 }
 
-/* THIRD SCREEN */
+/* THIRD SCREEN OUR SERVICES*/
 
 .third-screen {
     background-color: #70beff;
@@ -119,18 +144,38 @@ p {
     padding-bottom: 10%;
 }
 
+.third-screen button div.p-frame {	
+	line-height: 80px;
+	text-align: center;
+}
+
+.third-screen button p {
+	font-weight: 700;
+	display: inline-block;
+  	vertical-align: middle;
+  	line-height: normal;
+}
+
 .third-screen .btn {
     border-radius: 0;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
     height: 80px;
-    line-height: 60px;
-    font-weight: 700;
     margin-top: 1.25rem;
     width: 80%;
+    white-space: normal;
 }
 
 .third-screen .btn:hover {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.third-screen button div.img-frame {
+	line-height: 80px;
+	text-align: center;
+}
+
+.third-screen button img.img-icon {
+	vertical-align: middle;
 }
 
 .third-screen .col-9 {
@@ -187,15 +232,14 @@ h1 {
     margin-left: 15px;
 }
 
-.fifth-screen button {
+.fifth-screen .btn {
     background-color: #95b92b;
     margin-left: 15px;
 }
 
-.fifth-screen button:hover {
-    background-color: #95b92b;
+.fifth-screen .btn:hover {
+   background-color: #95b92b;
 }
-
 /* SIXTH SCREEN */
 
 .sixth-screen {
@@ -259,6 +303,10 @@ h4 {
     margin-top: 2rem;
 }
 
+.sixth-screen button:hover {
+	background-color: #f72a3b;
+}
+
 /* SEVENTH SCREEN */
 .seventh-screen {
     background: url('img/seventh-screen-background.jpg') no-repeat center center fixed;
@@ -313,6 +361,7 @@ footer span {
 
 @media (min-width: 576px) {
     /* first screen */
+    
     .first-screen .card-title {
         font-size: 3.75rem;
     }
@@ -363,6 +412,9 @@ footer span {
 
 @media (min-width: 768px) {
 
+header nav {
+    background-color: transparent;
+}
     /* second screen */
     .second-screen .img-fluid {
         margin-top: 30%;
@@ -374,7 +426,7 @@ footer span {
     }
     .third-screen h2 {
         top: 25%;
-        font-size: 5.625rem;
+        font-size: 5rem;
     }
 
     /* FOURTH SCREEN */
