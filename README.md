@@ -1,2 +1,2 @@
 # Veekly-webdev-challenge-2
-Projekt kodowany samodzielnie z pliku PSD. Zrealizowany w (ponad) 20 godzin roboczych.
+Projekt kodowany z pliku PSD przy użyciu HTML CSS i Bootstrap.
