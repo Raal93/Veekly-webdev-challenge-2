@@ -347,6 +347,7 @@ footer {
 }
 footer p {
     color: #b9b9b9;
+    word-wrap: break-word;
 }
 footer .logo {
     font-family: "Pacifico";
